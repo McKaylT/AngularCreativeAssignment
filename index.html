@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="utf-8"/>
-		<title>Learn AngularJS - Inline Editor</title>
+		<title>Note Taker</title>
 
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
 
@@ -22,10 +22,6 @@
 
 			<!-- This is the tooltip. It is shown only when the showtooltip variable is truthful -->
 			<div class="tooltip" ng-click="$event.stopPropagation()" ng-show="showtooltip">
-
-				<!-- ng-model binds the contents of the text field with the "value" model.
-					 Any changes to the text field will automatically update the value, and
-					 all other bindings on the page that depend on it.  -->
 
 				<input type="text" ng-model="value" />
 			</div>
